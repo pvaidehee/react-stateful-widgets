@@ -51,7 +51,7 @@ export default function Squares() {
             <div
               id={id}
               key={id}
-              className={`square${isActive(id)}`}
+              className={`square ${isActive(id)}`}
               onClick={() => markActive(id)}
             >
             </div>
